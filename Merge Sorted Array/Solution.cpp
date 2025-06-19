@@ -10,7 +10,7 @@ class Solution {
             if(nums1[p1] > nums2[p2]){
                 nums1[p] = nums1[p1];
                 p1--;
-                p--
+                p--;
             } else{
                 nums1[p] = nums2[p2];
                 p2--;
@@ -19,7 +19,7 @@ class Solution {
         }
 
         while(p2 >= 0) {
-            nums1[p--] = nums2[p2--]
+            nums1[p--] = nums2[p2--];
         }
     }
 }

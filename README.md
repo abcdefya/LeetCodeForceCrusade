@@ -1,6 +1,6 @@
-# LeetForceForge
+# LeetCodeForceCrusade
 
-Welcome to **LeetForceForge**, the ultimate hub for my competitive programming journey! This repository is where I sharpen my algorithmic sword, tackling challenges from **LeetCode** and **Codeforces** to forge my skills into legendary status. 💻⚡
+Welcome to **LeetCodeForceCrusade**, the ultimate hub for my competitive programming journey! This repository is where I sharpen my algorithmic sword, tackling challenges from **LeetCode** and **Codeforces** to forge my skills into legendary status. 💻⚡
 
 ## About
 This repo is a collection of my solutions, notes, and insights from grinding problems on:

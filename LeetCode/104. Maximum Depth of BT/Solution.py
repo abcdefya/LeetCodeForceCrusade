@@ -6,21 +6,32 @@ class TreeNode:
         self.left = left
         self.right = right
 
+
+# DFS, awesome
 class Solution:
     def maxDepth(self, root: TreeNode | None):
-        if not root:
+        if not root: # Base
             return 0
+        left = self.maxDepth(root.left)
+        right = self.maxDepth(root.right)
+        return 1 + max(left, right)
 
-        q = deque([root])
-        depth = 0
-        while(q):
+# BFS
+# class Solution:
+#     def maxDepth(self, root: TreeNode | None):
+#         if not root:
+#             return 0
 
-            for _ in len(q):
-                node = q.popleft()
-                if (node.left):
-                    q.append(node.left)
-                if (node.right):
-                    q.append(node.right)
-        depth += 1
+#         q = deque([root])
+#         depth = 0
+#         while(q):
 
-        return depth
+#             for _ in len(q):
+#                 node = q.popleft()
+#                 if (node.left):
+#                     q.append(node.left)
+#                 if (node.right):
+#                     q.append(node.right)
+#         depth += 1
+
+#         return depth
